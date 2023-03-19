@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "7.5",
+        "phpunit/phpunit": "10.0",
+        "fakerphp/faker": "^1.21"
+    }
+}
