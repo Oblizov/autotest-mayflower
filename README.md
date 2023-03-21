@@ -27,9 +27,8 @@ php vendor/bin/phpunit UserApiTest.php
 * **guzzle 7.5** - для отправки запросов
 * **faker 1.21** - генерации данных для пользователей
 ### Были автоматизированны следующие кейсы:
-* `Позитивный кейс создания пользователя UserApiTest.testCreateUser`
-* `Позитивный кейс получения всех пользователей UserApiTest.testGetAllUsers`
-* `Позитивный кейс получение пользователя по id UserApiTest.testGetUserById`
-* `Позитивный кейс получение пользователя по username UserApiTest.testGetUserByUsername`
-* `Позитивный кейс получение пользователя по email UserApiTest.testGetUserByEmail`
+* `Создание пользователя и его получение по id UserApiTest.testPostAndGetUserById`
+* `Создание пользователя и его получение по username UserApiTest.testPostAndGetUserByUsername`
+* `Создание пользователя и его получение по email UserApiTest.testPostAndGetUserByEmail`
+* `Создание пользователя и его получение из списка пользователей UserApiTest.testPostAndCheckLastUser`
 
